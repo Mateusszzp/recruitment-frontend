@@ -1,7 +1,7 @@
 # Recruitment-frontend
 
 ## Tasks
-1. Clone repository
+1. Fork repository
 1. Install dependencies, run dev server
 1. Fix potential errors during start
 1. Implement login method to `/users/login`
