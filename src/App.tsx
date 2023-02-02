@@ -8,6 +8,7 @@ import { Data } from './views/Data';
 import { Secondary } from './views/Secondary';
 
 export const App = () => {
+  console.log("Daj znać jak zaczniesz działać ")
   return (
     <Routes>
       <Route index element={<Navigate to={ROUTES.home} />} />

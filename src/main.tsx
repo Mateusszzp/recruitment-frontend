@@ -8,7 +8,8 @@ import { GlobalStyle } from './app/GlobalStyle';
 import { theme } from './app/theme';
 import "leaflet/dist/leaflet.css";
 
-ReactDOM.createRoot(document.getElementById('route') as HTMLElement).render(
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
+root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <Normalize />
