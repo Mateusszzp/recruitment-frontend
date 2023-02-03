@@ -6,9 +6,11 @@ import { Normalize } from 'styled-normalize';
 import { App } from './App';
 import { GlobalStyle } from './app/GlobalStyle';
 import { theme } from './app/theme';
-import "leaflet/dist/leaflet.css";
+
+console.log("TEST")
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
+ 
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>

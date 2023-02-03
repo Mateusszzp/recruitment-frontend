@@ -4,6 +4,7 @@ import { DEFAULT_BACKDROP_Z_INDEX } from "../app/constants";
 import { theme } from "../app/theme";
 
 export const LoadingSpinner = () => {
+  console.log("Co to jest")
   return (
     <Backdrop zIndex={1050}>
       <LoadingWrapper>
